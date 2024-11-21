@@ -18,3 +18,11 @@ while error > magin:
     i += 1
 print(f"무한 급수를 {i}번 반복하여 찾아낸 exp(3) = {exp_x}")
 print(f"급수간 오차는 {error}입니다")
+
+# break
+j = 0
+while True:
+    j += 1
+    if j > 5:
+        break
+    print("*" * j)
